@@ -5,7 +5,6 @@ import { useState, useEffect, use } from "react";
 
 export default function EditVideoPage({ params }: { params: Promise<{ id: string }> }) {
   const router = useRouter();
-  const { slug } = use(params);
 
   return (
     <div>
